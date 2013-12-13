@@ -15,7 +15,8 @@
     "test-no": "zuul-mp test/no-jsdoc-githubified.js --local 4000",
     "test-no-dev": "zuul test/no-jsdoc-githubified.js --local 3000",
     "update": "./scripts/update-jsdoc-css.sh",
-    "xmarklet": "node ./scripts/update-xmarklet.js"
+    "xmarklet": "node ./scripts/update-xmarklet.js",
+    "extension": "node ./scripts/update-extension.js"
   },
   "repository": {
     "type": "git",
