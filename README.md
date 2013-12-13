@@ -1,6 +1,4 @@
-# jsdoc-githubify-inject
-
-[![testling badge](https://ci.testling.com/thlorenz/jsdoc-githubify-inject.png)](https://ci.testling.com/thlorenz/jsdoc-githubify-inject)
+# jsdoc-githubify-inject [![build status](https://secure.travis-ci.org/thlorenz/jsdoc-githubify-inject.png)](http://travis-ci.org/thlorenz/jsdoc-githubify-inject)
 
 Injects jsdoc styles into pages that have been jsdoc-githubified.
 

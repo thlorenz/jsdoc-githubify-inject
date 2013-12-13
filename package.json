@@ -7,6 +7,7 @@
     "transform": "brfs"
   },
   "scripts": {
+    "test": "npm run test-one",
     "test-one": "zuul-mp test/one-jsdoc-githubified.js --local 4000",
     "test-one-dev": "zuul test/one-jsdoc-githubified.js --local 3000",
     "update": "./scripts/update-jsdoc-css.sh"

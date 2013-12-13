@@ -3,7 +3,6 @@
 var githubifieds = document.getElementsByClassName('jsdoc-githubify');
 var css = require('fs').readFileSync(__dirname + '/jsdoc-default.css');
 
-console.log(css);
 for (var i = 0; i < githubifieds.length; i++) {
   var div = githubifieds[i]
   var style = document.createElement('style');
