@@ -14,7 +14,8 @@
     "test-two-dev": "zuul test/two-jsdoc-githubified.js --local 3000",
     "test-no": "zuul-mp test/no-jsdoc-githubified.js --local 4000",
     "test-no-dev": "zuul test/no-jsdoc-githubified.js --local 3000",
-    "update": "./scripts/update-jsdoc-css.sh"
+    "update": "./scripts/update-jsdoc-css.sh",
+    "xmarklet": "node ./scripts/update-xmarklet.js"
   },
   "repository": {
     "type": "git",
@@ -27,7 +28,8 @@
     "zuul-mp": "~0.1.4",
     "mocha": "~1.15.1",
     "zuul": "~1.0.7",
-    "get-style-property": "~0.1.1"
+    "get-style-property": "~0.1.1",
+    "bookmarkletify": "0.0.1"
   },
   "keywords": [],
   "author": {
