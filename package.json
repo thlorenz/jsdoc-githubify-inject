@@ -30,7 +30,8 @@
     "zuul": "~1.0.7",
     "get-style-property": "~0.1.1",
     "bookmarkletify": "0.0.1",
-    "update-section": "~0.1.1"
+    "update-section": "~0.1.1",
+    "browserify": "~3.2.2"
   },
   "keywords": [],
   "author": {
