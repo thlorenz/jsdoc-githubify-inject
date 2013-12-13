@@ -2,19 +2,7 @@
 
 Injects jsdoc styles into pages that have been jsdoc-githubified.
 
-```js
-// TODO
-```
-
-## Status
-
-Nix, Nada, Nichevo, Nothing --> go away!
-## Installation
-
-    npm install jsdoc-githubify-inject
-
-## API
-
+Please get that bookmarklet [here](http://thlorenz.github.io/jsdoc-githubify-inject/)
 
 ## License
 
