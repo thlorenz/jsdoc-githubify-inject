@@ -16,7 +16,7 @@
     "test-no-dev": "zuul test/no-jsdoc-githubified.js --local 3000",
     "css": "./scripts/update-jsdoc-css.sh",
     "xmarklet": "node ./scripts/update-xmarklet.js",
-    "chrome": "node ./scripts/update-extension.js"
+    "chrome": "node ./scripts/update-extension.js && rm -f jsdoc-githubify.zip && zip -r jsdoc-githubify.zip chrome"
   },
   "repository": {
     "type": "git",
