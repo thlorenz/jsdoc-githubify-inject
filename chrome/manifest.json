@@ -1,6 +1,6 @@
 {
   "manifest_version": 2,
-  "name": "json-githubify-inject",
+  "name": "jsdoc-githubify-inject",
   "description": "This extension injects a jsdoc stylesheet whenever the user is either on a github wiki or repo and .jsdoc-githubify is present.",
   "version": "0.1.0",
   "content_scripts": [ 
@@ -10,5 +10,6 @@
   ],
   "permissions": [
     "https://github.com/*"
-  ]
+  ],
+  "icons": { "128": "jsdoc-githubify.128.png" }
 }
