@@ -32,7 +32,8 @@
     "get-style-property": "~0.1.1",
     "bookmarkletify": "0.0.1",
     "update-section": "~0.1.1",
-    "browserify": "~3.2.2"
+    "browserify": "~3.2.2",
+    "namespace-css": "~0.1.1"
   },
   "keywords": [],
   "author": {
