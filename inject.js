@@ -3,11 +3,10 @@
 var githubifieds = document.getElementsByClassName('jsdoc-githubify');
 var css = require('fs').readFileSync(__dirname + '/jsdoc-default.css');
 
-for (var i = 0; i < githubifieds.length; i++) {
-  var div = githubifieds[i]
+if (githubifieds.length) {
   var style = document.createElement('style');
   style.textContent = css;
 
-  var first = div.firstChild;
-  div.insertBefore(style, first);
+  var first = document.head.firstChild;
+  document.head.insertBefore(style, first);
 }
