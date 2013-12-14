@@ -1,0 +1,8 @@
+#wiki-rightbar {
+  margin-right: -210px;
+  width: 200px;
+}
+
+.wrap.has-rightbar #wiki-body {
+  margin-right: 10px; 
+}
