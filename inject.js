@@ -41,10 +41,10 @@ function injectCss() {
     var docme = document.querySelector('p>em>a[href="https://github.com/thlorenz/docme"]');
     if (docme) {
 
-      // if so add the class to the parent article
-      //            <a>   <em>          <p>           <article>
-      var article = docme.parentElement.parentElement.parentElement;
-      article.classList.add("jsdoc-githubify");
+      // if so add the class to the parent div
+      //            <a>   <em>          <p>           <div>
+      var div = docme.parentElement.parentElement.parentElement;
+      div.classList.add("jsdoc-githubify");
 
       injectCss();
     }
