@@ -2,7 +2,7 @@
   "manifest_version": 2,
   "name": "jsdoc-githubify-inject",
   "description": "This extension injects a jsdoc stylesheet whenever the user is either on a github wiki or repo and .jsdoc-githubify is present.",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "content_scripts": [ 
     { "matches": [ "https://github.com/*" ],
       "js": [ "inject.extension.js" ]
